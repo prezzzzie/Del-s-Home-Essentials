@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products | Shine Gas & Water Supply</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    
+    <header class="site-header">
+
+        <a class="brand" href="index.html">
+            <img class="brand-logo" src="assets/logo.png" alt="">
+            <span>
+                Del's Home Essentials
+                <small>GAS & WATER SUPPLY</small>
+            </span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            ☰
+        </button>
+
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a class="active" href="products.html">Products</a>
+            <a href="gallery.html">Gallery</a>
+            <a class="nav-cta" href="contact.html">Contact Us</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        
+        <section class="page-hero">
+
+            <p class="eyebrow">OUR PRODUCT RANGE</p>
+
+            <h1>
+                Everyday essentials,<br>
+                <em>all in one place.</em>
+            </h1>
+
+            <p>
+                Explore our sample catalog. Contact us to confirm stock,
+                sizes, and current pricing.
+            </p>
+
+        </section>
+
+        
+        <section class="section-wrap catalog">
+
+            <!-- Search and Category Filters -->
+            <div class="catalog-tools">
+
+                <label class="search-box">
+                    <span>⌕</span>
+
+                    <input
+                        id="productSearch"
+                        type="search"
+                        placeholder="Search products..."
+                        aria-label="Search products"
+                    >
+                </label>
+
+                <div
+                    class="filter-buttons"
+                    role="group"
+                    aria-label="Filter products"
+                >
+                    <button
+                        class="filter-btn active"
+                        data-filter="all"
+                    >
+                        All
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-filter="gas"
+                    >
+                        Gas & Cooking
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-filter="water"
+                    >
+                        Water Containers
+                    </button>
+                </div>
+
+            </div>
+
+            
+            <div class="product-grid catalog-grid">
+
+                <!-- Product 1: Red LPG Cylinder -->
+                <article
+                    class="product-card catalog-card"
+                    data-category="gas"
+                >
+                    <img
+                        src="assets/gas-cylinder-red.jpg"
+                        alt="Red LPG cylinder"
+                    >
+
+                    <div class="product-info">
+                        <span class="tag">GAS & COOKING</span>
+
+                        <h3>Red LPG Cylinder</h3>
+
+                        <p>
+                            Household LPG cylinder option.
+                            Ask about size and refill availability.
+                        </p>
+
+                        <a
+                            class="button button-small button-primary"
+                            href="contact.html?product=Red%20LPG%20Cylinder"
+                        >
+                            Inquire about this
+                        </a>
+                    </div>
+                </article>
+
+                
+                <article
+                    class="product-card catalog-card"
+                    data-category="gas"
+                >
+                    <img
+                        src="assets/gas-cylinder-blue.jpg"
+                        alt="Blue LPG cylinder"
+                    >
+
+                    <div class="product-info">
+                        <span class="tag">GAS & COOKING</span>
+
+                        <h3>Blue LPG Cylinder</h3>
+
+                        <p>
+                            A cylinder option for household
+                            cooking needs.
+                        </p>
+
+                        <a
+                            class="button button-small button-primary"
+                            href="contact.html?product=Blue%20LPG%20Cylinder"
+                        >
+                            Inquire about this
+                        </a>
+                    </div>
+                </article>
+
+                
+                <article
+                    class="product-card catalog-card"
+                    data-category="gas"
+                >
+                    <img
+                        src="assets/portable-gas-stove.jpg"
+                        alt="Portable tabletop gas stove"
+                    >
+
+                    <div class="product-info">
+                        <span class="tag">GAS & COOKING</span>
+
+                        <h3>Tabletop Gas Stove</h3>
+
+                        <p>
+                            Compact tabletop stove for daily
+                            meal preparation.
+                        </p>
+
+                        <a
+                            class="button button-small button-primary"
+                            href="contact.html?product=Tabletop%20Gas%20Stove"
+                        >
+                            Inquire about this
+                        </a>
+                    </div>
+                </article>
+
+                
+                <article
+                    class="product-card catalog-card"
+                    data-category="gas"
+                >
+                    <img
+                        src="assets/gas-stove-set.jpg"
+                        alt="Gas cylinder and stove set"
+                    >
+
+                    <div class="product-info">
+                        <span class="tag">GAS & COOKING</span>
+
+                        <h3>Gas Stove Set</h3>
+
+                        <p>
+                            Ask about compatible stove and
+                            cylinder packages.
+                        </p>
+
+                        <a
+                            class="button button-small button-primary"
+                            href="contact.html?product=Gas%20Stove%20Set"
+                        >
+                            Inquire about this
+                        </a>
+                    </div>
+                </article>
+
+                
+                <article
+                    class="product-card catalog-card"
+                    data-category="water"
+                >
+                    <img
+                        src="assets/water-jugs.jpg"
+                        alt="Blue refillable water jugs"
+                    >
+
+                    <div class="product-info">
+                        <span class="tag">WATER CONTAINERS</span>
+
+                        <h3>Reusable Water Jugs</h3>
+
+                        <p>
+                            Reusable jugs for water storage
+                            and dispensing.
+                        </p>
+
+                        <a
+                            class="button button-small button-primary"
+                            href="contact.html?product=Reusable%20Water%20Jugs"
+                        >
+                            Inquire about this
+                        </a>
+                    </div>
+                </article>
+
+                
+                <article
+                    class="product-card catalog-card"
+                    data-category="water"
+                >
+                    <img
+                        src="assets/water-containers.jpg"
+                        alt="Blue water storage containers"
+                    >
+
+                    <div class="product-info">
+                        <span class="tag">WATER CONTAINERS</span>
+
+                        <h3>Water Storage Containers</h3>
+
+                        <p>
+                            Practical containers for home or
+                            small-business use.
+                        </p>
+
+                        <a
+                            class="button button-small button-primary"
+                            href="contact.html?product=Water%20Storage%20Containers"
+                        >
+                            Inquire about this
+                        </a>
+                    </div>
+                </article>
+
+                
+                <article
+                    class="product-card catalog-card"
+                    data-category="water"
+                >
+                    <img
+                        src="assets/water-can.jpg"
+                        alt="Blue handled water can"
+                    >
+
+                    <div class="product-info">
+                        <span class="tag">WATER CONTAINERS</span>
+
+                        <h3>Handled Water Can</h3>
+
+                        <p>
+                            A handled container for convenient
+                            carrying and storage.
+                        </p>
+
+                        <a
+                            class="button button-small button-primary"
+                            href="contact.html?product=Handled%20Water%20Can"
+                        >
+                            Inquire about this
+                        </a>
+                    </div>
+                </article>
+
+                
+                <article
+                    class="product-card catalog-card"
+                    data-category="gas"
+                >
+                    <img
+                        src="assets/portable-stove-dark.jpg"
+                        alt="Portable tabletop burner"
+                    >
+
+                    <div class="product-info">
+                        <span class="tag">GAS & COOKING</span>
+
+                        <h3>Portable Burner</h3>
+
+                        <p>
+                            Compact burner style; ask about
+                            compatibility and availability.
+                        </p>
+
+                        <a
+                            class="button button-small button-primary"
+                            href="contact.html?product=Portable%20Burner"
+                        >
+                            Inquire about this
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+
+            
+            <p class="no-results" hidden>
+                No products match your search.
+                Try another keyword.
+            </p>
+
+            
+            <p class="price-note">
+                Prices are not listed because they may change.
+                Please contact the shop for updated prices
+                and availability.
+            </p>
+
+        </section>
+
+    </main>
+
+    
+    <footer class="footer">
+
+        <a class="brand brand-footer" href="index.html">
+            <img class="brand-logo" src="assets/logo.png" alt="">
+            <span>
+                Del's Home Essentials
+                <small>GAS & WATER SUPPLY</small>
+            </span>
+        </a>
+
+        <p>
+            Practical household essentials, with friendly service.
+        </p>
+
+        <div class="footer-links">
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <small>
+            © <span class="year"></span>
+            Del's Home Essentials. Student project demo.
+        </small>
+
+    </footer>
+
+</body>
+</html>

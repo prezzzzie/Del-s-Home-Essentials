@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Del's Home Essentials</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    
+    <header class="site-header">
+
+        <a class="brand" href="index.html">
+            <img class="brand-logo" src="assets/logo.png" alt="">
+            <span>
+                Del's Home Essentials
+                <small>GAS & WATER SUPPLY</small>
+            </span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            ☰
+        </button>
+
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="gallery.html">Gallery</a>
+            <a class="nav-cta active" href="contact.html">Contact Us</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        
+        <section class="page-hero">
+
+            <p class="eyebrow">WE’RE HERE TO HELP</p>
+
+            <h1>
+                Have a question?<br>
+                <em>Let’s talk.</em>
+            </h1>
+
+            <p>
+                Ask about product availability, sizes, current prices,
+                or delivery options.
+            </p>
+
+        </section>
+
+        
+        <section class="section-wrap contact-layout">
+
+            
+            <div class="contact-info">
+
+                <p class="eyebrow">GET IN TOUCH</p>
+
+                <h2>Contact the shop</h2>
+
+                <p>
+                    We supply safe, reliable LPG for households and businesses. Reach out to us for refills, new cylinder purchases, or delivery inquiries.
+                </p>
+
+                
+                <div class="contact-detail">
+                    <span>⌖</span>
+
+                    <div>
+                        <strong>Shop address</strong>
+                        <p>31 Leyte St. Group 3 Payatas Quezon City</p>
+                    </div>
+                </div>
+
+                
+                <div class="contact-detail">
+                    <span>☎</span>
+
+                    <div>
+                        <strong>Phone number</strong>
+                        <p>09673011536</p>
+                    </div>
+                </div>
+
+                
+                <div class="contact-detail">
+                    <span>✉</span>
+
+                    <div>
+                        <strong>Email / social media</strong>
+                        <p>facebook.com/DelsEssential</p>
+                        <p>DelsEssential@gmail.com</p>
+                    </div>
+                </div>
+
+                
+                <div class="contact-detail">
+                    <span>◷</span>
+
+                    <div>
+                        <strong>Business hours</strong>
+                        <p>Monday to Saturday: 7:00 AM – 10:00 PM<br>
+                        Sunday: 7:00 AM – 9:00 PM</p>
+                    </div>
+                </div>
+
+                
+                <div class="safety-note">
+
+                    <strong>Important safety reminder</strong>
+
+                    <p>
+                        Have LPG cylinders and connections checked by
+                        qualified personnel. Keep cylinders upright in
+                        a well-ventilated area and away from heat.
+                    </p>
+
+                </div>
+
+            </div>
+
+            
+            <form class="contact-form" id="contactForm">
+
+                <h2>Send an inquiry</h2>
+
+                <p>
+                    Fill in the form below to prepare your inquiry.
+                </p>
+
+              
+                <div class="form-row">
+
+                    <label>
+                        Full name
+
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Your name"
+                            required
+                        >
+                    </label>
+
+                    <label>
+                        Email address
+
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+                    </label>
+
+                </div>
+
+                
+                <label>
+                    What are you interested in?
+
+                    <select id="interest" name="interest" required>
+
+                        <option value="">Choose a product</option>
+
+                        <option>Red LPG Cylinder</option>
+                        <option>Blue LPG Cylinder</option>
+                        <option>Tabletop Gas Stove</option>
+                        <option>Gas Stove Set</option>
+                        <option>Reusable Water Jugs</option>
+                        <option>Water Storage Containers</option>
+                        <option>Handled Water Can</option>
+                        <option>Portable Burner</option>
+                        <option>General inquiry</option>
+
+                    </select>
+                </label>
+
+                
+                <label>
+                    Your message
+
+                    <textarea
+                        name="message"
+                        rows="5"
+                        placeholder="Tell us what you would like to know..."
+                        required
+                    ></textarea>
+                </label>
+
+                
+                <button
+                    class="button button-primary"
+                    type="submit"
+                >
+                    Prepare Inquiry <span>→</span>
+                </button>
+
+                
+                <p
+                    class="form-message"
+                    id="formMessage"
+                    role="status"
+                    hidden
+                ></p>
+
+                
+                <p class="form-small">
+                    Demo form: it does not send messages to a server.
+                    Connect it to a form service or business email
+                    before publishing.
+                </p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    
+    <footer class="footer">
+
+        <a class="brand brand-footer" href="index.html">
+            <img class="brand-logo" src="assets/logo.png" alt="">
+            <span>
+                Del's Home Essentials
+                <small>GAS & WATER SUPPLY</small>
+            </span>
+        </a>
+
+        <p>
+            Practical household essentials, with friendly service.
+        </p>
+
+        <div class="footer-links">
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <small>
+            © <span class="year"></span>
+            Del's Home Essentials & Water Supply. Student project demo.
+        </small>
+
+    </footer>
+
+</body>
+</html>
